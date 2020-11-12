@@ -54,7 +54,7 @@ class Hit : public o2::BasicXYZEHit<Float_t, Float_t>
 
   int getParentID() const { return mParentID; }
   int getSector() const { return mSectorID; }
-  float getPMCLightYield() const { return mNphePMC; }
+  float getPMCLightYield() const { return mNphePMC; } //Test ZDC
   float getPMQLightYield() const { return mNphePMQ; }
   int getNumContributingSteps() const { return mNoContributingSteps; }
 
